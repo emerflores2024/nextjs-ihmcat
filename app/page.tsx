@@ -9,7 +9,7 @@ import { MdOutlinePublishedWithChanges } from 'react-icons/md';
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto px-10 mt-40 md:px-14 lg:px-14 xl:px-14 w-full lg:w-4/5 xl:w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center ">
+      <div className="container mx-auto px-5 mt-40 md:px-14 lg:px-14 xl:px-14 w-full xl:w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center ">
         <div className="w-full">
           <h3 className="text-4xl text-balance font-bold ">
             Te ayudamos a expandir tu negocio
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container flex flex-col mx-auto px-10 pt-12 mt-20 md:px-14 lg:px-14 xl:px-14 w-full lg:w-4/5 xl:w-2/3">
+      <div className="container flex flex-col mx-auto px-5 pt-12 mt-20 md:px-14 lg:px-14 xl:px-14 w-full xl:w-4/5">
         <h3 className="text-3xl tracking-tight text-center w-full xl:w-3/5 mx-auto font-bold ">
           La era digital esta aquí y es importante adaptarse
         </h3>
@@ -86,8 +86,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container flex flex-col mx-auto px-10 mt-20 md:px-14 lg:px-14 xl:px-14 w-full lg:w-4/5 xl:w-2/3 bg-gray-900 pb-10 rounded-lg">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-10">
+      <div className="container flex flex-col mx-auto px-5 my-5 md:px-14 lg:px-14 xl:px-14 w-full xl:w-4/5 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-10 bg-gray-900 p-10 rounded-lg">
           <div className="w-full flex flex-col text-gray-200">
             <h1 className="text-6xl">71%</h1>
             <p className="text-lg mt-3">
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container mx-auto px-10 md:px-14 lg:px-14 xl:px-14 w-full lg:w-4/5 xl:w-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center ">
+      <div className="container mx-auto px-5 mb-5 md:px-14 lg:px-14 xl:px-14 w-full lg:w-4/5 xl:w-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center ">
         <div className="w-full">
           <img
             src="https://srgdigiworld.com/wp-content/uploads/2023/05/webdevelopment-1.gif"
